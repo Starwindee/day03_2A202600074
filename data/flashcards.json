@@ -1,0 +1,39 @@
+{
+  "Nature": {
+    "name": "Nature",
+    "cards": []
+  },
+  "Công việc": {
+    "name": "Công việc",
+    "cards": []
+  },
+  "Fruit": {
+    "name": "Fruit",
+    "cards": [
+      {
+        "front": "apple",
+        "back": "quả táo",
+        "synonyms": []
+      }
+    ]
+  },
+  "city": {
+    "name": "city",
+    "cards": [
+      {
+        "front": "address",
+        "back": "địa chỉ",
+        "synonyms": []
+      },
+      {
+        "front": "building",
+        "back": "tòa nhà",
+        "synonyms": []
+      }
+    ]
+  },
+  "business": {
+    "name": "business",
+    "cards": []
+  }
+}

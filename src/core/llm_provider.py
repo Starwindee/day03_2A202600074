@@ -11,6 +11,7 @@ class LLMProvider(ABC):
     def __init__(self, model_name: str, api_key: Optional[str] = None):
         self.model_name = model_name
         self.api_key = api_key
+        self.base_url = "https://models.inference.ai.azure.com/"
 
     @abstractmethod
     def generate(self, prompt: str, system_prompt: Optional[str] = None) -> Dict[str, Any]:
